@@ -1,3 +1,21 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components {
+    .button {
+        @apply relative block w-full rounded-full py-3 text-center text-lg font-semibold text-white;
+    }
+
+    .button span {
+        @apply absolute left-0 -bottom-1 -z-10 h-full w-full rounded-full;
+    }
+
+    .title {
+        @apply text-center font-semibold leading-tight text-blue-darkgrayish;
+    }
+
+    .text {
+        @apply mt-5 text-center text-[1.025rem] text-blue-grayish;
+    }
+}
