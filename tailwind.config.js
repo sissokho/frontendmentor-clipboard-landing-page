@@ -9,14 +9,15 @@ module.exports = {
                 grayish: 'hsl(201, 11%, 66%)',
                 darkgrayish: 'hsl(210, 10%, 33%)',
             },
-            fontFamily: {
-                'bai-jamjuree': ['Bai Jamjuree', 'sans-serif'],
-            },
-            fontWeight: {
-                regular: '400',
-                semibold: '600',
-            },
         },
+        fontFamily: {
+            'bai-jamjuree': ['Bai Jamjuree', 'sans-serif'],
+        },
+        fontWeight: {
+            regular: '400',
+            semibold: '600',
+        },
+
         extend: {},
     },
     plugins: [],
