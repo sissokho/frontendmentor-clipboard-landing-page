@@ -5,6 +5,7 @@
 @layer components {
     .button {
         @apply relative block w-full rounded-full py-3 text-center text-lg font-semibold text-white;
+        @apply md:inline-block md:w-56;
     }
 
     .button span {
