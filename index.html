@@ -17,9 +17,9 @@
     <body class="min-h-full font-bai-jamjuree">
         <!-- Header -->
         <header
-            class="flex flex-col items-center bg-[url('images/bg-header-mobile.png')] bg-cover bg-no-repeat py-32 px-8 md:bg-[url('images/bg-header-desktop.png')]"
+            class="flex flex-col items-center bg-[url('/images/bg-header-mobile.png')] bg-cover bg-no-repeat py-32 px-8 md:bg-[url('/images/bg-header-desktop.png')]"
         >
-            <div class="md:max-w-[37rem]">
+            <div class="text-center md:max-w-[41.5rem]">
                 <!-- Logo -->
                 <svg class="mx-auto" width="125" height="125" xmlns="http://www.w3.org/2000/svg">
                     <g stroke="#26BBA4" stroke-width="10" fill="none" fill-rule="evenodd">
@@ -30,20 +30,34 @@
                         />
                     </g>
                 </svg>
-                <h1 class="title mt-16 text-[2rem] md:text-4xl">A history of everything you copy</h1>
-                <p class="text">
+                <h1
+                    class="mt-16 text-[2rem] font-semibold leading-tight text-blue-darkgrayish sm:text-4xl md:text-[2.6rem]"
+                >
+                    A history of everything you copy
+                </h1>
+                <p class="mt-5 text-blue-grayish sm:text-lg sm:font-semibold">
                     Clipboard allows you to track and organize everything you copy. Instantly access your clipboard on
                     all you devices.
                 </p>
-                <div class="mt-12 w-full space-y-7 md:mt-5 md:box-border md:space-x-4 md:text-center">
-                    <a href="#" class="button group bg-cyan">
-                        <span aria-hidden="true" class="bg-[hsl(171_66%_39%)] group-hover:bg-[hsl(171_66%_70%)]"></span>
-                        Download for iOS
-                    </a>
-                    <a href="#" class="button group bg-blue-light">
+                <!-- Call for action -->
+                <div class="mt-12 w-full space-y-7 text-center sm:space-x-4">
+                    <a
+                        href="#"
+                        class="group relative block w-full rounded-full bg-cyan py-3 text-center text-lg font-semibold text-white shadow-xl shadow-cyan/40 hover:bg-[hsl(171_45%_55%)] sm:inline-block sm:w-56"
+                    >
                         <span
                             aria-hidden="true"
-                            class="bg-[hsl(233_100%_64%)] group-hover:bg-[hsl(233_100%_80%)]"
+                            class="absolute left-0 -bottom-1 -z-10 h-full w-full rounded-full bg-[hsl(171_66%_30%)] group-hover:bg-[hsl(171_20%_55%)]"
+                        ></span>
+                        Download for iOS
+                    </a>
+                    <a
+                        href="#"
+                        class="group relative block w-full rounded-full bg-blue-light py-3 text-center text-lg font-semibold text-white shadow-xl shadow-blue-light/50 hover:bg-[hsl(233_75%_70%)] sm:inline-block sm:w-56"
+                    >
+                        <span
+                            aria-hidden="true"
+                            class="absolute left-0 -bottom-1 -z-10 h-full w-full rounded-full bg-[hsl(233_66%_35%)] group-hover:bg-[hsl(233_50%_60%)]"
                         ></span>
                         Download for Mac
                     </a>
@@ -55,34 +69,40 @@
         <main class="px-8">
             <!-- First section -->
             <section>
-                <h2 class="title mx-auto text-[1.725rem] md:text-3xl">Keep track of your snippets</h2>
-                <p class="text mx-auto md:max-w-[35rem] md:text-[0.925rem]">
-                    Clipboard instantly stores any item you copy in the cloud meaning you can access your snippets
-                    immediately on all your devices. Our Mac and iOS apps will help you organize everything
-                </p>
+                <div class="mx-auto space-y-5 text-center md:max-w-[41rem]">
+                    <h2
+                        class="text-[1.725rem] font-semibold leading-tight text-blue-darkgrayish sm:text-[2rem] md:text-[2.125rem]"
+                    >
+                        Keep track of your snippets
+                    </h2>
+                    <p class="text-blue-grayish sm:text-lg">
+                        Clipboard instantly stores any item you copy in the cloud meaning you can access your snippets
+                        immediately on all your devices. Our Mac and iOS apps will help you organize everything
+                    </p>
+                </div>
 
                 <div
-                    class="mt-16 flex flex-col gap-10 md:-ml-20 md:h-[35rem] md:flex-row md:items-center md:gap-28 lg:pr-48"
+                    class="mt-24 flex flex-col gap-16 md:-ml-20 md:h-[35rem] md:flex-row md:items-center md:gap-28 lg:pr-48"
                 >
                     <img src="images/image-computer.png" alt="" class="block w-full md:h-full md:basis-3/5" />
-                    <div class="space-y-12">
-                        <div>
-                            <h3 class="title text-2xl md:text-left md:text-xl">Quick Search</h3>
-                            <p class="text mt-3 md:w-[19rem] md:text-left md:text-sm">
+                    <div class="mx-auto max-w-[21rem] space-y-16">
+                        <div class="space-y-3 text-center md:text-left">
+                            <h3 class="text-2xl font-semibold leading-tight text-blue-darkgrayish">Quick Search</h3>
+                            <p class="text-blue-grayish sm:text-lg md:text-base">
                                 Easily search your snippets by content, category, web address, application and more.
                             </p>
                         </div>
 
-                        <div>
-                            <h3 class="title text-2xl md:text-left md:text-xl">iCloud Sync</h3>
-                            <p class="text mt-3 md:w-[19rem] md:text-left md:text-sm">
+                        <div class="space-y-3 text-center md:text-left">
+                            <h3 class="text-2xl font-semibold leading-tight text-blue-darkgrayish">iCloud Sync</h3>
+                            <p class="text-blue-grayish sm:text-lg md:text-base">
                                 Instantly saves and syncs snippets across all your devices.
                             </p>
                         </div>
 
-                        <div>
-                            <h3 class="title text-2xl md:text-left md:text-xl">Complete History</h3>
-                            <p class="text mt-3 md:w-[19rem] md:text-left md:text-sm">
+                        <div class="space-y-3 text-center md:text-left">
+                            <h3 class="text-2xl font-semibold leading-tight text-blue-darkgrayish">Complete History</h3>
+                            <p class="text-blue-grayish sm:text-lg md:text-base">
                                 Remove any snippets from the first moment you started using the app.
                             </p>
                         </div>
@@ -92,22 +112,32 @@
 
             <!-- Second section -->
             <section class="mt-44 md:mt-36">
-                <h2 class="title text-[1.725rem] md:text-3xl">Access Clipboard anywhere</h2>
-                <p class="text md:mx-auto md:max-w-[38rem] md:text-[0.925rem]">
-                    Whether you're on the go, or at your computer, you can access all your Clipboard snippets in a few
-                    simple clicks.
-                </p>
+                <div class="space-y-5 text-center md:mx-auto md:max-w-[41.5rem]">
+                    <h2
+                        class="text-[1.725rem] font-semibold leading-tight text-blue-darkgrayish sm:text-[2rem] md:text-[2.125rem]"
+                    >
+                        Access Clipboard anywhere
+                    </h2>
+                    <p class="text-blue-grayish sm:text-lg">
+                        Whether you're on the go, or at your computer, you can access all your Clipboard snippets in a
+                        few simple clicks.
+                    </p>
+                </div>
 
-                <img src="images/image-devices.png" alt="" class="mt-16 block md:mx-auto md:mt-20" />
+                <img src="images/image-devices.png" alt="" class="mt-24 block md:mx-auto md:mt-20" />
             </section>
 
             <!-- Third section -->
-            <section class="mt-32 md:mt-14">
-                <h2 class="title text-[1.725rem] md:text-3xl">Supercharge your workflow</h2>
-                <p class="text md:text-[0.925rem]">We've got the tools to boost your productivity.</p>
+            <section class="mt-32 text-center md:mt-14">
+                <h2
+                    class="text-[1.725rem] font-semibold leading-tight text-blue-darkgrayish sm:text-[2rem] md:text-[2.125rem]"
+                >
+                    Supercharge your workflow
+                </h2>
+                <p class="mt-5 text-blue-grayish sm:text-lg">We've got the tools to boost your productivity.</p>
 
-                <div class="mt-20 flex flex-col gap-16 md:mx-auto md:flex-row md:justify-center md:gap-7">
-                    <div class="text-center lg:basis-[19rem]">
+                <div class="mt-24 flex flex-col gap-16 md:mx-auto md:flex-row md:justify-center md:gap-7">
+                    <div class="flex-1 text-center lg:grow-0 lg:basis-[19rem]">
                         <!-- Icon blacklist -->
                         <svg class="mx-auto" width="50" height="44" xmlns="http://www.w3.org/2000/svg">
                             <g fill="#9EABB2" fill-rule="nonzero">
@@ -123,13 +153,15 @@
                             </g>
                         </svg>
 
-                        <h3 class="title mt-10 text-xl">Create blacklist</h3>
-                        <p class="text md:text-sm">
+                        <h3 class="mt-10 text-[1.3rem] font-semibold leading-tight text-blue-darkgrayish lg:text-2xl">
+                            Create blacklist
+                        </h3>
+                        <p class="mt-5 text-blue-grayish sm:text-lg md:text-base">
                             Ensure sensitive information never makes its way to your clipboard by excluding certain
                             sources.
                         </p>
                     </div>
-                    <div class="text-center lg:basis-[19rem]">
+                    <div class="flex-1 text-center lg:grow-0 lg:basis-[19rem]">
                         <!--  Icon text -->
                         <svg class="mx-auto" width="50" height="44" xmlns="http://www.w3.org/2000/svg">
                             <path
@@ -139,13 +171,15 @@
                             />
                         </svg>
 
-                        <h3 class="title mt-10 text-xl">Plain text snippets</h3>
-                        <p class="text md:text-sm">
+                        <h3 class="mt-10 text-[1.3rem] font-semibold leading-tight text-blue-darkgrayish lg:text-2xl">
+                            Plain text snippets
+                        </h3>
+                        <p class="mt-5 text-blue-grayish sm:text-lg md:text-base">
                             Remove unwanted formatting from copied text for a consistent look.
                         </p>
                     </div>
 
-                    <div class="text-center lg:basis-[19rem]">
+                    <div class="flex-1 text-center lg:grow-0 lg:basis-[19rem]">
                         <!-- Icon preview -->
                         <svg class="mx-auto" width="50" height="44" xmlns="http://www.w3.org/2000/svg">
                             <path
@@ -155,8 +189,12 @@
                             />
                         </svg>
 
-                        <h3 class="title mt-10 text-xl">Sneak preview</h3>
-                        <p class="text md:text-sm">Quick preview of all snippets on your Clipboard for easy access.</p>
+                        <h3 class="mt-10 text-[1.3rem] font-semibold leading-tight text-blue-darkgrayish lg:text-2xl">
+                            Sneak preview
+                        </h3>
+                        <p class="mt-5 text-blue-grayish sm:text-lg md:text-base">
+                            Quick preview of all snippets on your Clipboard for easy access.
+                        </p>
                     </div>
                 </div>
             </section>
@@ -164,8 +202,8 @@
             <!-- Partners -->
             <section class="md:mt-30 mt-44">
                 <!-- Sr-only taken from : https://gist.github.com/ffoodd/000b59f431e3e64e4ce1a24d5bb36034 -->
-                <h2 class="sr-only-focusable sr-only">Partners</h2>
-                <div class="flex flex-col items-center gap-16 md:flex-row md:flex-wrap md:justify-center">
+                <h2 class="sr-only">Partners</h2>
+                <div class="flex flex-col items-center gap-16 sm:flex-row sm:flex-wrap sm:justify-center">
                     <img src="images/logo-google.png" alt="Google" />
                     <img src="images/logo-ibm.png" alt="IBM" />
                     <img src="images/logo-microsoft.png" alt="Microsoft" />
@@ -176,21 +214,36 @@
 
             <!-- Call to action -->
             <section class="mt-36">
-                <h2 class="title text-[1.725rem] md:text-3xl">Clipboard for iOS and Mac OS</h2>
-                <p class="text md:mx-auto md:max-w-[37rem] md:text-[0.925rem]">
-                    Available for free on the App Store. Download for Mac or iOS, sync with iCloud and you're ready to
-                    start adding to your clipboard.
-                </p>
+                <div class="space-y-5 text-center md:mx-auto md:max-w-[41rem]">
+                    <h2
+                        class="text-[1.725rem] font-semibold leading-tight text-blue-darkgrayish sm:text-[2rem] md:text-[2.125rem]"
+                    >
+                        Clipboard for iOS and Mac OS
+                    </h2>
+                    <p class="text-blue-grayish sm:text-lg">
+                        Available for free on the App Store. Download for Mac or iOS, sync with iCloud and you're ready
+                        to start adding to your clipboard.
+                    </p>
+                </div>
 
-                <div class="mt-12 w-full space-y-7 md:mt-5 md:box-border md:space-x-4 md:text-center">
-                    <a href="#" class="button group bg-cyan">
-                        <span aria-hidden="true" class="bg-[hsl(171_66%_39%)] group-hover:bg-[hsl(171_66%_70%)]"></span>
-                        Download for iOS
-                    </a>
-                    <a href="#" class="button group bg-blue-light">
+                <div class="mt-12 w-full space-y-7 text-center sm:space-x-4 md:mt-5">
+                    <a
+                        href="#"
+                        class="group relative block w-full rounded-full bg-cyan py-3 text-center text-lg font-semibold text-white shadow-xl shadow-cyan/40 hover:bg-[hsl(171_45%_55%)] sm:inline-block sm:w-56"
+                    >
                         <span
                             aria-hidden="true"
-                            class="bg-[hsl(233_100%_64%)] group-hover:bg-[hsl(233_100%_80%)]"
+                            class="absolute left-0 -bottom-1 -z-10 h-full w-full rounded-full bg-[hsl(171_66%_30%)] group-hover:bg-[hsl(171_20%_55%)]"
+                        ></span>
+                        Download for iOS
+                    </a>
+                    <a
+                        href="#"
+                        class="group relative block w-full rounded-full bg-blue-light py-3 text-center text-lg font-semibold text-white shadow-xl shadow-blue-light/50 hover:bg-[hsl(233_75%_70%)] sm:inline-block sm:w-56"
+                    >
+                        <span
+                            aria-hidden="true"
+                            class="absolute left-0 -bottom-1 -z-10 h-full w-full rounded-full bg-[hsl(233_66%_35%)] group-hover:bg-[hsl(233_50%_60%)]"
                         ></span>
                         Download for Mac
                     </a>
@@ -199,7 +252,7 @@
         </main>
 
         <!-- Footer -->
-        <footer class="mt-44 bg-blue-grayish/10 md:mt-32">
+        <footer class="mt-44 bg-blue-grayish/10 md:mt-36">
             <div
                 class="flex flex-col items-center gap-12 py-14 md:flex-row md:justify-between md:gap-14 md:py-10 md:px-8 lg:mx-auto lg:max-w-[67rem] lg:gap-24"
             >
@@ -207,8 +260,8 @@
                 <img class="h-16 w-16" src="images/logo.svg" alt="Logo" />
 
                 <!-- Useful links -->
-                <nav class="text-center text-lg text-blue-darkgrayish md:text-left md:text-sm">
-                    <ul class="grid grid-flow-row gap-5 md:grid-cols-3 md:gap-x-12">
+                <nav class="text-center text-lg text-blue-darkgrayish md:text-left md:text-base lg:text-lg">
+                    <ul class="grid grid-flow-row gap-5 md:grid-cols-3 md:gap-x-8 lg:gap-x-12">
                         <li class="hover:text-cyan"><a href="#">FAQs</a></li>
                         <li class="hover:text-cyan md:row-start-2"><a href="#">Contact Us</a></li>
                         <li class="hover:text-cyan"><a href="#">Privacy Policy</a></li>
@@ -253,13 +306,12 @@
                     </a>
                 </div>
             </div>
-            <p class="mb-2 text-center text-sm text-blue-darkgrayish">
+            <p class="mb-2 text-center text-base text-blue-darkgrayish">
                 Challenge by
                 <a class="text-cyan" href="https://www.frontendmentor.io?ref=challenge" target="_blank"
                     >Frontend Mentor</a
                 >. Coded by
-                <a class="text-cyan" href="https://www.frontendmentor.io/profile/sissokho" target="_blank"
-                    >Mouhamadou Moustapha SISSOKHO</a
+                <a class="text-cyan" href="https://github.com/sissokho" target="_blank">Mouhamadou Moustapha SISSOKHO</a
                 >.
             </p>
         </footer>
