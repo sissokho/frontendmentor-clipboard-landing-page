@@ -13,17 +13,23 @@
         <link href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;600&display=swap" rel="stylesheet" />
 
         
-      <link rel="stylesheet" href="assets/index.dadcb743.css">
+      <link rel="stylesheet" href="assets/index.a659ee06.css">
     </head>
     <body class="min-h-full font-bai-jamjuree">
         <!-- Header -->
         <header
-            class="flex flex-col items-center bg-[url('images/bg-header-mobile.png')] bg-cover bg-no-repeat py-32 px-8 md:bg-[url('images/bg-header-desktop.png')]"
+            class="flex flex-col items-center bg-[url('/images/bg-header-mobile.png')] bg-cover bg-no-repeat py-32 px-8 md:bg-[url('/images/bg-header-desktop.png')]"
         >
-            <div class="md:max-w-[37rem]">
+            <div class="text-center md:max-w-[41.5rem]">
                 <!-- Logo -->
-                <svg class="mx-auto" width="125" height="125" xmlns="http://www.w3.org/2000/svg">
-                    <g stroke="#26BBA4" stroke-width="10" fill="none" fill-rule="evenodd">
+                <svg
+                    class="mx-auto"
+                    width="125"
+                    height="125"
+                    xmlns="http://www.w3.org/2000/svg"
+                    aria-label="Clipboard logo"
+                >
+                    <g stroke="#26BBA4" stroke-width="10" fill="none" fill-rule="evenodd" aria-hidden="true">
                         <circle cx="62.5" cy="62.5" r="57.5" />
                         <path
                             d="M85.481 85.481c-12.692 12.692-33.27 12.692-45.962 0s-12.692-33.27 0-45.962 33.27-12.692 45.962 0"
@@ -31,20 +37,34 @@
                         />
                     </g>
                 </svg>
-                <h1 class="title mt-16 text-[2rem] md:text-4xl">A history of everything you copy</h1>
-                <p class="text">
+                <h1
+                    class="mt-16 text-[2rem] font-semibold leading-tight text-blue-darkgrayish sm:text-4xl md:text-[2.6rem]"
+                >
+                    A history of everything you copy
+                </h1>
+                <p class="mt-5 text-blue-grayish sm:text-lg sm:font-semibold">
                     Clipboard allows you to track and organize everything you copy. Instantly access your clipboard on
                     all you devices.
                 </p>
-                <div class="mt-12 w-full space-y-7 md:mt-5 md:box-border md:space-x-4 md:text-center">
-                    <a href="#" class="button group bg-cyan">
-                        <span aria-hidden="true" class="bg-[hsl(171_66%_39%)] group-hover:bg-[hsl(171_66%_70%)]"></span>
-                        Download for iOS
-                    </a>
-                    <a href="#" class="button group bg-blue-light">
+                <!-- Call for action -->
+                <div class="mt-12 w-full space-y-7 text-center sm:space-x-4">
+                    <a
+                        href="#"
+                        class="group relative block w-full rounded-full bg-cyan py-3 text-center text-lg font-semibold text-white shadow-xl shadow-cyan/40 hover:bg-[hsl(171_45%_55%)] sm:inline-block sm:w-56"
+                    >
                         <span
                             aria-hidden="true"
-                            class="bg-[hsl(233_100%_64%)] group-hover:bg-[hsl(233_100%_80%)]"
+                            class="absolute left-0 -bottom-1 -z-10 h-full w-full rounded-full bg-[hsl(171_66%_30%)] group-hover:bg-[hsl(171_20%_55%)]"
+                        ></span>
+                        Download for iOS
+                    </a>
+                    <a
+                        href="#"
+                        class="group relative block w-full rounded-full bg-blue-light py-3 text-center text-lg font-semibold text-white shadow-xl shadow-blue-light/50 hover:bg-[hsl(233_75%_70%)] sm:inline-block sm:w-56"
+                    >
+                        <span
+                            aria-hidden="true"
+                            class="absolute left-0 -bottom-1 -z-10 h-full w-full rounded-full bg-[hsl(233_66%_35%)] group-hover:bg-[hsl(233_50%_60%)]"
                         ></span>
                         Download for Mac
                     </a>
@@ -56,34 +76,48 @@
         <main class="px-8">
             <!-- First section -->
             <section>
-                <h2 class="title mx-auto text-[1.725rem] md:text-3xl">Keep track of your snippets</h2>
-                <p class="text mx-auto md:max-w-[35rem] md:text-[0.925rem]">
-                    Clipboard instantly stores any item you copy in the cloud meaning you can access your snippets
-                    immediately on all your devices. Our Mac and iOS apps will help you organize everything
-                </p>
+                <div class="mx-auto space-y-5 text-center md:max-w-[41rem]">
+                    <h2
+                        class="text-[1.725rem] font-semibold leading-tight text-blue-darkgrayish sm:text-[2rem] md:text-[2.125rem]"
+                    >
+                        Keep track of your snippets
+                    </h2>
+                    <p class="text-blue-grayish sm:text-lg">
+                        Clipboard instantly stores any item you copy in the cloud meaning you can access your snippets
+                        immediately on all your devices. Our Mac and iOS apps will help you organize everything
+                    </p>
+                </div>
 
                 <div
-                    class="mt-16 flex flex-col gap-10 md:-ml-20 md:h-[35rem] md:flex-row md:items-center md:gap-28 lg:pr-48"
+                    class="mt-24 flex flex-col gap-16 md:-ml-20 md:h-[35rem] md:flex-row md:items-center md:gap-28 lg:pr-48"
                 >
-                    <img src="assets/image-computer.3afa1bdd.png" alt="" class="block w-full md:h-full md:basis-3/5" />
-                    <div class="space-y-12">
-                        <div>
-                            <h3 class="title text-2xl md:text-left md:text-xl">Quick Search</h3>
-                            <p class="text mt-3 md:w-[19rem] md:text-left md:text-sm">
+                    <img
+                        src="assets/image-computer.a6856037.png"
+                        alt=""
+                        class="block w-full md:h-full md:basis-3/5"
+                        width="752"
+                        height="572"
+                        loading="lazy"
+                        decoding="async"
+                    />
+                    <div class="mx-auto max-w-[21rem] space-y-16">
+                        <div class="space-y-3 text-center md:text-left">
+                            <h3 class="text-2xl font-semibold leading-tight text-blue-darkgrayish">Quick Search</h3>
+                            <p class="text-blue-grayish sm:text-lg md:text-base">
                                 Easily search your snippets by content, category, web address, application and more.
                             </p>
                         </div>
 
-                        <div>
-                            <h3 class="title text-2xl md:text-left md:text-xl">iCloud Sync</h3>
-                            <p class="text mt-3 md:w-[19rem] md:text-left md:text-sm">
+                        <div class="space-y-3 text-center md:text-left">
+                            <h3 class="text-2xl font-semibold leading-tight text-blue-darkgrayish">iCloud Sync</h3>
+                            <p class="text-blue-grayish sm:text-lg md:text-base">
                                 Instantly saves and syncs snippets across all your devices.
                             </p>
                         </div>
 
-                        <div>
-                            <h3 class="title text-2xl md:text-left md:text-xl">Complete History</h3>
-                            <p class="text mt-3 md:w-[19rem] md:text-left md:text-sm">
+                        <div class="space-y-3 text-center md:text-left">
+                            <h3 class="text-2xl font-semibold leading-tight text-blue-darkgrayish">Complete History</h3>
+                            <p class="text-blue-grayish sm:text-lg md:text-base">
                                 Remove any snippets from the first moment you started using the app.
                             </p>
                         </div>
@@ -93,24 +127,48 @@
 
             <!-- Second section -->
             <section class="mt-44 md:mt-36">
-                <h2 class="title text-[1.725rem] md:text-3xl">Access Clipboard anywhere</h2>
-                <p class="text md:mx-auto md:max-w-[38rem] md:text-[0.925rem]">
-                    Whether you're on the go, or at your computer, you can access all your Clipboard snippets in a few
-                    simple clicks.
-                </p>
+                <div class="space-y-5 text-center md:mx-auto md:max-w-[41.5rem]">
+                    <h2
+                        class="text-[1.725rem] font-semibold leading-tight text-blue-darkgrayish sm:text-[2rem] md:text-[2.125rem]"
+                    >
+                        Access Clipboard anywhere
+                    </h2>
+                    <p class="text-blue-grayish sm:text-lg">
+                        Whether you're on the go, or at your computer, you can access all your Clipboard snippets in a
+                        few simple clicks.
+                    </p>
+                </div>
 
-                <img src="assets/image-devices.b8175c1e.png" alt="" class="mt-16 block md:mx-auto md:mt-20" />
+                <img
+                    src="assets/image-devices.48f34be9.png"
+                    alt=""
+                    class="mt-24 block md:mx-auto md:mt-20"
+                    width="905"
+                    height="575"
+                    loading="lazy"
+                    decoding="async"
+                />
             </section>
 
             <!-- Third section -->
-            <section class="mt-32 md:mt-14">
-                <h2 class="title text-[1.725rem] md:text-3xl">Supercharge your workflow</h2>
-                <p class="text md:text-[0.925rem]">We've got the tools to boost your productivity.</p>
+            <section class="mt-32 text-center md:mt-14">
+                <h2
+                    class="text-[1.725rem] font-semibold leading-tight text-blue-darkgrayish sm:text-[2rem] md:text-[2.125rem]"
+                >
+                    Supercharge your workflow
+                </h2>
+                <p class="mt-5 text-blue-grayish sm:text-lg">We've got the tools to boost your productivity.</p>
 
-                <div class="mt-20 flex flex-col gap-16 md:mx-auto md:flex-row md:justify-center md:gap-7">
-                    <div class="text-center lg:basis-[19rem]">
+                <div class="mt-24 flex flex-col gap-16 md:mx-auto md:flex-row md:justify-center md:gap-7">
+                    <div class="flex-1 text-center lg:grow-0 lg:basis-[19rem]">
                         <!-- Icon blacklist -->
-                        <svg class="mx-auto" width="50" height="44" xmlns="http://www.w3.org/2000/svg">
+                        <svg
+                            class="mx-auto"
+                            width="50"
+                            height="44"
+                            xmlns="http://www.w3.org/2000/svg"
+                            aria-hidden="true"
+                        >
                             <g fill="#9EABB2" fill-rule="nonzero">
                                 <path
                                     d="M11.07 0C8.353 0 6.14 2.192 6.14 4.876l-.179 25.278 2.69.02.179-25.289c0-1.21 1.005-2.196 2.24-2.196h27.027V0H11.071z"
@@ -124,15 +182,23 @@
                             </g>
                         </svg>
 
-                        <h3 class="title mt-10 text-xl">Create blacklist</h3>
-                        <p class="text md:text-sm">
+                        <h3 class="mt-10 text-[1.3rem] font-semibold leading-tight text-blue-darkgrayish lg:text-2xl">
+                            Create blacklist
+                        </h3>
+                        <p class="mt-5 text-blue-grayish sm:text-lg md:text-base">
                             Ensure sensitive information never makes its way to your clipboard by excluding certain
                             sources.
                         </p>
                     </div>
-                    <div class="text-center lg:basis-[19rem]">
+                    <div class="flex-1 text-center lg:grow-0 lg:basis-[19rem]">
                         <!--  Icon text -->
-                        <svg class="mx-auto" width="50" height="44" xmlns="http://www.w3.org/2000/svg">
+                        <svg
+                            class="mx-auto"
+                            width="50"
+                            height="44"
+                            xmlns="http://www.w3.org/2000/svg"
+                            aria-hidden="true"
+                        >
                             <path
                                 d="M17.872 14.736a235.39 235.39 0 012.192 5.744c.746 2.027 1.536 4.24 2.368 6.64h-5.344a44.4 44.4 0 00-.784-2.368c-.288-.81-.57-1.632-.848-2.432h-8.64c-.278.8-.56 1.621-.848 2.432a44.4 44.4 0 00-.784 2.368H0a371.54 371.54 0 012.368-6.644 233.104 233.104 0 012.192-5.748 206.71 206.71 0 012.112-5.112c.693-1.61 1.413-3.136 2.16-4.736H13.6c.725 1.6 1.44 3.125 2.144 4.736.704 1.61 1.413 3.328 2.128 5.12zM7.968 18.32h6.303c-.34-.96-.671-1.878-.991-2.752a94.407 94.407 0 00-.912-2.4c-.288-.725-.539-1.365-.752-1.92-.214-.555-.384-.992-.512-1.313-.107.32-.267.758-.48 1.313a1241.872 1241.872 0 00-1.648 4.32c-.331.874-.667 1.792-1.008 2.752zM35.04 3.2h-3.2v25.6h3.2V32h-9.6v-3.2h3.2V3.2h-3.2V0h9.6v3.2z"
                                 fill="#9EABB2"
@@ -140,15 +206,23 @@
                             />
                         </svg>
 
-                        <h3 class="title mt-10 text-xl">Plain text snippets</h3>
-                        <p class="text md:text-sm">
+                        <h3 class="mt-10 text-[1.3rem] font-semibold leading-tight text-blue-darkgrayish lg:text-2xl">
+                            Plain text snippets
+                        </h3>
+                        <p class="mt-5 text-blue-grayish sm:text-lg md:text-base">
                             Remove unwanted formatting from copied text for a consistent look.
                         </p>
                     </div>
 
-                    <div class="text-center lg:basis-[19rem]">
+                    <div class="flex-1 text-center lg:grow-0 lg:basis-[19rem]">
                         <!-- Icon preview -->
-                        <svg class="mx-auto" width="50" height="44" xmlns="http://www.w3.org/2000/svg">
+                        <svg
+                            class="mx-auto"
+                            width="50"
+                            height="44"
+                            xmlns="http://www.w3.org/2000/svg"
+                            aria-hidden="true"
+                        >
                             <path
                                 d="M49.059 14.072c-2.585-4.227-6.06-7.623-10.424-10.188C34.27 1.318 29.66.035 24.806.035c-4.854 0-9.464 1.283-13.829 3.849C6.612 6.449 3.137 9.845.554 14.072c-.37.646-.554 1.283-.554 1.91 0 .628.185 1.265.554 1.91 2.583 4.227 6.058 7.624 10.423 10.189 4.365 2.565 8.975 3.847 13.83 3.847 4.853 0 9.463-1.277 13.828-3.833 4.365-2.557 7.84-5.957 10.424-10.202.369-.646.553-1.283.553-1.91 0-.628-.184-1.265-.553-1.911zM18.867 6.5c1.652-1.652 3.631-2.478 5.939-2.478.369 0 .683.13.941.388.258.258.388.572.388.941 0 .37-.13.683-.387.941a1.28 1.28 0 01-.942.388c-1.587 0-2.944.563-4.07 1.689-1.126 1.126-1.688 2.482-1.688 4.07 0 .369-.13.683-.388.941a1.28 1.28 0 01-.941.388c-.37 0-.683-.13-.942-.388a1.282 1.282 0 01-.388-.942c0-2.306.827-4.286 2.478-5.938zm17.969 18.522c-3.701 2.242-7.71 3.364-12.03 3.364-4.319 0-8.329-1.121-12.03-3.364-3.7-2.243-6.777-5.256-9.232-9.04 2.805-4.356 6.321-7.614 10.548-9.773a12.099 12.099 0 00-1.689 6.23c0 3.414 1.214 6.334 3.64 8.762 2.428 2.427 5.349 3.64 8.763 3.64 3.415 0 6.335-1.213 8.762-3.64 2.428-2.427 3.641-5.348 3.641-8.763 0-2.233-.563-4.31-1.689-6.229 4.227 2.16 7.743 5.418 10.548 9.773-2.454 3.784-5.532 6.797-9.232 9.04z"
                                 fill="#9EABB2"
@@ -156,42 +230,81 @@
                             />
                         </svg>
 
-                        <h3 class="title mt-10 text-xl">Sneak preview</h3>
-                        <p class="text md:text-sm">Quick preview of all snippets on your Clipboard for easy access.</p>
+                        <h3 class="mt-10 text-[1.3rem] font-semibold leading-tight text-blue-darkgrayish lg:text-2xl">
+                            Sneak preview
+                        </h3>
+                        <p class="mt-5 text-blue-grayish sm:text-lg md:text-base">
+                            Quick preview of all snippets on your Clipboard for easy access.
+                        </p>
                     </div>
                 </div>
             </section>
 
             <!-- Partners -->
             <section class="md:mt-30 mt-44">
-                <!-- Sr-only taken from : https://gist.github.com/ffoodd/000b59f431e3e64e4ce1a24d5bb36034 -->
-                <h2 class="sr-only-focusable sr-only">Partners</h2>
-                <div class="flex flex-col items-center gap-16 md:flex-row md:flex-wrap md:justify-center">
-                    <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAKUAAAAxCAMAAACMApm9AAAAk1BMVEVHcEystr////+frLOquLifrLSksLmfq7OfrLOfq7OfrLOgrbSyy8ufq7OntrmfrLOfrLOerLOfrLOir7afrLOgrLOfrLOfrLOfrLOfrLOkrrWfrLOhrragrrSfrbSfrLOfrbSfrLOfrLOfrLOgrLSgrLSfrLOfrLOfrLOgrLOfrbOeq7KfrLOeq7OfrbSisrieq7L6oygSAAAAMHRSTlMADAGEClYX+fXnpjsF7xHd4c7CIupT0tmOxx+eKjJG/FmWt6pNi7G9fWp1/f6MYhsAeT1sAAAEVklEQVRYw82Z23qqShCEWwQHEBXQiCqe4znL/O//dPtCRYAhkHzZa9F3SY1D2fRMVbci6TC67cPUV71ourt15G8FQP3Vi/mIV3xM10bzWA7dD3IRWQ1jabQVAHAdjaPek/B21iSW/S0AanseeiIiXrc9BqDXbQ7LYQSgNpkTswwBlNUUlv0IIBzm/3/rAatlM1h6W4CNV0RmEWDHjWA5ATjpszyFg9kElvEK2JWAHX9jNOKNH4Bxab46zTjjXYCl/IXwlvNgpJxgvxARuV0ul/osXeD4jWe1LDdwlBO4VutboLH2E1E7xiJRwq3AMm6HvhqN3XWyidf7Vir7f1TyLPWnXx/sH9Paq9blLBdhssw+PSpxCfS8uiTXvYzQ96y64CzKWoSVVcLS2F/T6/yFiIhsALcmR6MN4Oy7Ha/T3TsAbaMWaI4BVu6y482sA8DK1rI0DwDBOe6b94X2u4jIFjjXZNkGVu3ndWC2V0C7FugCjBfPA/tMbJHlDrAvz3e7HDxEJQDe65G0kq/2iHcbsGqAXYCwlRELLcsLEH2+NjG3EJkiDqDxPWY6Hlv3gLfMqjeg168EJQT89GnqOFqWM5UX5L4PZxEFDIss0679scUe2OSWbYB9JRhTeGFvWpZzYJ27zlc4XlkuiyxbNth5JerYYLcqQDkB46zQGmMNy/4KQo00LsvqssjSAuaFdfP7i/4SlKPGzZyKLI11MZUiFkzKzvghvMc02cwtFN7zzbkVoETAIt8KanK5Az7zm3zCVCZf35ezZItAW8BDIKgAxQYK5aBhGaCPQZX2vFg6QNE5mYBTAYoN5B/haVg6JSztKh1/sVRaIi1AVYAyqJlLVcqywhNlc6l/qU4FKGHNunRARdHgHr7v+77vOI7jHKv8ZbYu9QckqADlBFxyluCir8vBj7z6LHPG9ZeNWwHK4sE2HYH+jF9bP+l7Zpn7UntxY1WAOrPwrtOeG3D7QQ95x+5HQZWIoGpVgHcTW0PHOysYe9/ux70JrzxPeJmctBpPKsF7VdXwRPNiAcftqtnGMAQ4eilPZL/lzVnKE5WBjydk/OVVlXii7CwlHj2/aMmcaDZRANskBWuAj0k/MbpXXsL7JSgS+1mv/nGLyvylSpWmNUoLeH7mZsTn7RWAvZH16jCadD+TpiHr1UtBkc40fU9fbyXdmQtwfJi0bggQtErml87zj8F7se/JRL7vKQFFxDu/fFbQLet0zR0Avvtn4voATDsVs+DRyfytHlJExLR2A4UazJcPobF1PeRplUn6xPtyrk50Nn+xH0+oPtkoiLT9eHx4zfYPC10r+/iNYjDdnYe/PNvQ6HiZfRhejpFtD46X/3smWRmnciVpTpgOEDeMVGveKQ4gwqaRDDOzAJG3D33r+k9jl7t6zyut0/vHEfcAtovHRRICTL2msTQWDgD+bjPZORpJaUjMjllZm3vSyLBS3fa0K42Nbns6sO1BeFp895P/ASC6O1M8GXWcAAAAAElFTkSuQmCC" alt="Google" />
-                    <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIsAAAAzCAMAAACQXgvVAAAAhFBMVEVHcEyeqrGcqrKeqrGapq+PmJidqrGCn5+aqK16h4eeq7Gcqq+eq7Keq7KdqrGcqbGeqrKZqaueq7Geq7CXpqmdqbCdqrKbqK+eq7IAAACbp66dqrGbqLCdqrCdq7GcqbGeq7KcqbGdqrKcqbCdqrGeqrKeq7GdqrGdqrKeq7KdqrKeq7JY4bKDAAAAK3RSTlMAaYHSFgbZCBoD7F2M2/Bi8h7viA6SYDK0ASN6KlPlQcNIoTll+KlxY8yWy9PtgQAABEZJREFUWMPtWd12ojwU3QIRIjqWGgViEDAKKu//ft+FCT8hUGfaWe2s9e0bMeeH3XIOOzkiJb4VhAJ0wuYTmqIPiyOhGIJa0gyzINhtrCgyICvsts3SLc517LdJymTkct8OyfD9OM0uGHLh58aK0w24nJoZvCUZU0kyd2w+88F9XnCZ5nIBFrNcmuZaSTp5Izfr34btrh9zYZljRR0Dce3MY5d5AACxGNuOsl8Nnu027f/1f8yC5QsrQgGIcPExSgbwzGaRXaMFVoecfV3tNk3TNPfSXrtNk8T6Jqm9I1/uo+1HPa1b++hPcNkcdPUGj+YVLtFjZYUbAqG7egH7CGVhM5wc/QxkYo18RMarmQWeFT7gexO2ARidcAyYfvVOJGL0x7dTT93otK0Ts55/p4IjiSRT6+kcF/FYKtwvZGgil7u27cXYf1nlreYUyyEqaSRQeIg5LnHS9YXJ5fimbZUY+zdFy2Vr9t2qpgB4Nd3t81yuJhf/eB3n6HHpCI7fARUH0mz5W1zS4LBTcHKjYGjuaFvYbjiCUK/tsvb1Gh93BhYcoNIxlw/Bd/VF+g9LpFduFUJhPiMRbidxKb2enrSOt5v6zLgvjbXt9tYP+q0+6tXuGO/HntZ2tXvVIVcnT+ZU8897eiyMu/5f2HFxCx2T7DfqalmsXuRSvSucapNLfXqfwGk3ULfQ1YZkXairzWalrs77jTZXs1yIF2iYm9CUBVPwhrT9NonHvJEzY1NxP1sbiQKdsZmYTmIG+aRv/gJtNHGvBw+008ZKRuuhaxH6t/tXauN4J9pv6V4fFblvRN3LXp6v0EYLmYVv5VIiuw/3ttHLXILtWsGmjetp3HoyJ496dcERhH03J6e9PN+njf8yvPygYNNGbesOep3/oTse8kyvlQFAZOtyyPgwzxdoY/Xqvq4oAVKvBvvQP+ijT+x3+z0NIC/a3lx7ADn+elUb3xRs2qht5+4c0Pq/FWWrjUu9luQAvPW7+uqGwzwfaWOkELB0pI3a1mla5x8Fbb0Yjl2g50/l+bFIqRWEpgB9BYSmsEYDoOT57dmZ41jzheu4ViQZkCXuCzh6yCtj7SzVrNV1XdddcwAgh8Lwes5UaRBLwT43U52bv6jeenbb9Tn7GGvsmQPwZM6juBT0b82lVG89J6lqumrnwmJBfAImBeCFeyscCUhn/zFCD4hrQzEXXJ8k1+v1NlAauzO8Qg8pFySuioxGsffdrUMEh0yuju+L6Lu5+CKCrKoYhEdgMrQi4wDPwnlslVhGpWEo9QYlKEOtnVSY4ZKBCo64rmMwEX2udgs1Y5iqXUBUrb7Za5fHTMR5znjMPjFTvbp1MPUjSKuX5NjS6mljjwuJJQMolxEQPX5Z4YbAYflrAqtN8cjawk/LwrAnrXaXl6jTWMPrEQEgosxlmQfPmaodPuBPHxiH41DfmzxQ0vYnuPH5UyUhavr6HzVHWMkwj9F2AAAAAElFTkSuQmCC" alt="IBM" />
-                    <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAKEAAAAjCAMAAADL95pXAAAAq1BMVEVHcEydqrKdq7KZqaybqaqdq7KdqrGeqrGdqrGJnp6cqbCeqrKaprCdqrGdq7KcqbGdq7GeqrKeqrKeq7Kboa+cqbGdq7GcqbCdqrKQoaGcqrGap62bqLCeqrKdqbGeq7KeqbCeq7KcqK+eq7KUpanfZ0Uhqt2cqrGaqK+dqrGdqrGdqrGYpKydqrGdqrKcqa+dqbGdqrGeqrKdqrGdqrKdqrGdqrGdq7Geq7JEIDBeAAAAOHRSTlMAw/YeEreNZ+UFQeEX1vtLf+nu3AxQXjmFCUgbLM+h+EXINL0ODg5VI/L9dxWXrymRWqljnXOks9WYN3sAAAQ4SURBVFjD7ZfbdqpIFEUXwRsoCorijYBKN941apL5/1/WD2AUzekesTM6D33Wk7XLqjHHrn1DSkpFDe4sln5Uf0xqBXmutjeWlx8mrFHUXsaNpfrDhPUbnspvwt+E/4HM1235MH6McBTbdry7uiyxc0P3tEq+CbBVA3h5jLAK4Awut60AnqVpE/bfAzheANG/IqT1sfadnPAFmH0P4Qaaq509l9l7mz9IuP1Yd8kJRyGL7ynslgPvkhS3YfwIYbRkMT+v3yGCZ0mJPf8eF/o16EtSCs2HCDt1cM8h80TNyQiLfvjcO9av/3TZs2r5/S1oPvTKk9MlVyrwbMCzlKxcN6sPSe/NCCeHoy/Tdd1GyZ2Vx5Km/XIYGns7v2haMcLJoZrdY1dmYTirBJLGbn8Bhuu67gGWG9etfpkwtJvnXCnVWdohPEtmBEdJ6joAwFQx0DWAlkqbKDdvG5LkZsvIlGRulwAQbXwduVXnfnL4B0LHMs650oOJlb2y2YaepJcIiLw2TGXD0wRgOJgBeG0AI8kyf+HUiUxp5ADLbO+glztCR384T0X1NbuxHAuE6pHlimVAVZ1rwnkbosp4bXbLgWyAzqq3mbqAETdGwwnQl2YQ7qxSsB9JB2AbNEZpB+it424b3uI4jl1YHuM4kEZmUSWVGkUNij4s5bkSNKmti4QbWGYetwayAW8naeRBWJKkRgdqJasDp3NANqFsSdK4DaH1SaZY9rCg1k5BqyizSKgKOL60gY2sa8Kkfl23baCS1w2Olx4UKwSv+2FY5ulzgmh3qTbdc7X5836Cnfx9HGr8BF2NPKJpkXC8hNcCYUuS+hDtLraqXIBZakl6g1op2zsC8WeE9a9mivQOW1VhpiJhDHSvCZdB3sfajcujvip5B8CYSuVL7eoC3W8i7MJiPoOXTwjTe8I9LPJImS6hKllVhyxK3y+E6Tf60HfgtKCe6P6V+/eEV7GWAkNJ8tMJsNGGjya6+lUcPkCoFQB93RD6Heis7whtYJPZDuDlD56EYKgHrLLsn0BoFQh5nNBcAE/jW0L1ge1Ikn/cXQgHIUQ9STo2YSP/1ZSkGZS19qA9lGS5wOvV5DDMKsDgMUI9k89IRcJGB6id3JNDcCFUqwnM+v0ZUDc1qHlvr9W3JrxKVSDaupUJMEmuCOdP4O332wcJ7XPWWh14y5zakzTtnA9lPSXIz0UfbTaQBucCZySS+svz3mQuyffOsbzN+/KXCHueZ1iSZJU9w5cky/C8vTRyPC+VJHNfA2gfGgo8rzbNDwbbNkC9MpJknTyAWiUrhK3ZAlg6biJJfuh5WWCOyk1Ylr9GOGis8/LqN/IPp9K6kUjWer3Oi0YpSFN7pMx2GQJNO02D/LAaQZraHyml+fClO/X1ceH55zRNp8nXCH9Evwn/F4TeF2abnyF8Lhd1VOXGMvxRwL8AdOmdHCMe/RcAAAAASUVORK5CYII=" alt="Microsoft" />
-                    <img src="data:image/png;base64,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" alt="HP" />
-                    <img src="data:image/png;base64,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" alt="Vector Graphics" />
+                <h2 class="sr-only">Partners</h2>
+                <div class="flex flex-col items-center gap-16 sm:flex-row sm:flex-wrap sm:justify-center">
+                    <img
+                        src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAKUAAAAxCAMAAACMApm9AAAAZlBMVEUAAACrt7uls7mfrLSfq7Ojr7afrLOerLOfq7OfrLOfrLOfrLOyy8ufrLOfrLOgrbSfq7OfrLOfrbSfrLSfrLOfrLOgrrShrrafrLOfrbSfrLOfrLOgrLSfrLOfrLOgrLOfrbOeq7L/3Lp1AAAAIXRSTlMAChRV+R+nz+ff9YQF2bQ778Jci46eMirHRuqWTb19anUUP4VCAAAD7UlEQVRYw81Z2bajIBAERBTXaIyaPf3/PzmBxGBY0ubMmTH1FC0ulN30Ape8o86rUfJNOYqWkf8FuGP56H53gBnGFhm/hspYgI0y8g1cU2XOJ22HpNxMv6vYHbmeSlaBAq+ucaGeizpP9JtN7Q5eS2Vcao3Ht4jZN/ql6/WVVDItsnG822rP7+3X66gstLuPRcDG2eASK6js1LCL38ojQEWtl6uoHNQoESCZPNqv1lGp/J0E7eWWoFVU1iZC/jGK/S458DTZ9jo0b7fbcpWq5JzJctBIJOl9LRHR78hWwoTzPSBVYAZUDnkj+SER7WuSYvOVKdmWwwS+ZctJdoYZeBtW2TcwIbs8de5VgSkIDpNBDTYRSpqc9o4opHILc8hevzyaAMeRwx3ptmYFq7epesiXkTQBBbFnRRxVDzt5VVJNJteB0cfA7DRF+PUbkTmdJnw8LiKFXrufAlYb1qtSKGG3ybd7+Swq6iO1XBzR49MMTsoeEUZOeaShs2IRUHlT/aKu1Ma05f3vlGtqT7DO8Zx6o5Z1dG8YShIVD5LNOJZ6VcbcLshMalerqPQ0kW9du9nWViHSu3qLkgM4Dou8Knf3X62TztPC2BJTSTOAjNmJSb2kCEkualNaZOJRydS+8JTGvdmXiEr99TtiYL4+Qkhy9nQzF4/K1jWlnroLxXjVPDC+phBqSW9ECYTUCby3uN6jUvh2Xwwwku5zvoxfUyRmCotPEJKoaHe2g0dlAn5IU3sQlXoDU4enKpMjpFZpL1F4VKbgR2bqOKaSB4VwhCRyoS15SKXpiVBbBp2aIiRpsH1pluBlKedIFc6mv0T3ZTBAEoTU8XyzuJt/X0qkV8dUimCyEQhJejRfmiUocu5BVEYQSNwQIaSvWTgBmi/xM6ThTO3hgSLI6Wfyjv2yOs6UzYuvz+OFFimMYE9DAR1CKlTLeqKdu4GHHLvbiBt9SClmPVEW2c3ZhmGkXsHpL7m3J7IjeThA9/GeKO44wPzSoAWFjr01utBipMYgrV69LUP9JW9n/jiYAu7euZHhWoHG1u7V4dDV8evQADlOGicbhE5nQnuvftpc+zKhgfvLdHqQJ+tIYSNHSIPiavqspA6ddKl4rCu2nZCgMDLkLvhwoX91hnQP65IDl7v9s9BkRqXV0hl0xed79fJK//o87uI1J7+v4D2PD5XRUJnC6v6PQo7iGv/t3cZn9B/ah/h2LrNMnm8DWRkXXUl+HFQlgdVNZYHumHsB0ZDfAm2gjJ3qWZPfgrBS7xV0p/djGDZTWjElZSzIr6FPnyXl2Il0Kim/h/gMb9j9niU1osRoHH8tcN4K2yizTDaXnnyJP8kC12TneprlAAAAAElFTkSuQmCC"
+                        alt="Google"
+                        width="165"
+                        height="49"
+                        loading="lazy"
+                        decoding="async"
+                    />
+                    <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIsAAAAzCAMAAACQXgvVAAAAV1BMVEUAAACHnJyaqK2eqrKeq7Keq7GdqrKapq+eqrGeqrGcqq+eq7GcqrKdqbGbqK+bqbCXpqmdqrGdq7Geq7KdqrCcqbGeq7KcqbGdqrKeq7GeqrKdqrGeq7LEQzk5AAAAHHRSTlMABxvx2ophFmjSXeyBkyY0DnrltFNBw0ihqfhxoq+L4AAAA2hJREFUWMPtmOt2qyAQhQe8IEYZErlE7fs/55E2aMLF2mPPOqtr9fsTwwzjrmWyQQCSARZINhiQSvl6Dq3KJEYBKFNm4OY+41bKDnFGDS+IvoyoaJBzf0tyW2o1t7cdikFJ+EDxOHwX4MmnHNTSeC15phHzN+IKnpDV9LkWqbokMwLg3O1TKQYO0cSxK8ITLHUbJeGXA0jdJGkFgGibz7FySVSpyFOj0WSClqfWbgy3fu2GDAiedKW7ONXTMcWVZLSU9fpY+rcjWmh/ScJbgJZfDtBTsCYVuHX+f4BDbuYrkrIkBICwLZZH5hKpl5Ir9BNamqwci5HkYMju+EbOungTZJKG+1gvElY3aj8YeemIQYGtzg44bH0RarkWPjaKIN9hVi112HeX+V33GHf7MS1TrGXaaiS0jCL5K7LFVPk1LbSuHnQ6jOnOx1q65reVR5FV4LUKaIQb7sLhmsIvX4bZ+kEroh5r6yyNZbuJShCsIyz76z6a9txIQsIBp8lfdHpIuebpno4pKgYpLdz4OUNfeqs0l4NaxuLBbQ61zLciw+11J99yHxgq87gqy8vj6t6XPjzuaiGMeiRE7pmDkUwRJhkNkfJ53k9h1xuz7BRJ5H6jN8bwWYIj8sYRw/OoaUnNv9EbY25Xmewjo8NZ3PqRs96YF9OQpBYb7oHv1Gs5740bsc3F3tiI1T23qrr79cYzMH3EG7WM82ska6JazY8CEHy2yNc63+CN49F9nbHOOy4v+9DjfXRyv7tp2ca0WXuzYoGW8964HTrFWHiMXb2xXL3RaWGV/8pbX+f7vJGRRD4luUT5+vVHemMAOZW5Pb4v1aIdTzIoADXwA1wZ6DEYuyM47EeBSrxLqk2QVdEPCYhC/rv3L0Y/ddvUybTHvrcCQy0oWvHP3ksZ+/QmlSvIa5EoCCHuY5HV9kk6dAe+/nNatiTO0XlxdcvNCXUV4KYKQXA0Cigy+M8QIQCHqSNE/HfvdhJwHPH9QmKbRAnnde0+3iypDQLOG30EyeqxAbjMds9lnhGkoOfWrlHuPsm1u3mF87f82hUoBWotl88TPT3x2f/1qZ72ArysjBaCiwgnaalF+yJgs7O6LDJcStMrBh5rgvig11BDs+fP3oWIsBqtpnunQrKk0RxM5pw1b37xnaSf/XH1B7bm0YTmmX70AAAAAElFTkSuQmCC" alt="IBM" width="139" height="51" loading="lazy" decoding="async" />
+                    <img
+                        src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAKEAAAAjCAMAAADL95pXAAAAclBMVEUAAACap62dqrKeqrGdqrKZqayeq7KeqrKMn5+dq7KdqrGcqrGdq7Kboa+eq7KcqbCdq7GbqLCdqbGdq7GcqbCdqrKcqbGdqrKdqrGeqbCUpameqrKcqrGcqK8hqt3fZ0WeqrKeq7KdqrGaqK+dqrGeq7KFgmy0AAAAJXRSTlMAFORnwh3Z7AX1jkm3DPhBXSugfzmFULB1RQ7PVTQODqfIlyNjIzh3PgAAA8BJREFUWMPtmGmPnDAMhp2ZQBhuCPfRMgf//y/WNtAosKo0aKRWbd8PuxMndp517EQ7AJ2wFR0sHvxWfb9fLCkN9c6Swm/V98tsywe5s1zhHf0n/E/4dxA6TR1O2TlCp02SNgOjLlkNVd508BkFTJSeI7zS0I1MtIYMOcAYk+NHlN0wZHyekBTApshdCVP8JeEjeiBfkyVPcNLpeZKwhk3VvBI6/XxL4RPy3HWDVs1zdoYQj/P23MY1j3MuyCd8RBHylIAaMPYpQhfXa1MyF5cJbXlfZ8ezh1/PeVv8AAlPnfI9N73iI51kwq7ROmNbl06yv0+vCByttRBahjQxlmHfSz+BRaNPi65LnMSXNFfQ36xLbBSpURPu/ND6+jZhn8Rbrwh0TfqlDtH44sp0V6cRWvxZSe4s8YhXcy0ApZdh7AC61utU/IjgNe/lvn/Kntx6JcWMeu5CqJYbLI1pK6WIMMGKvXPvRxwRrSjZkSNOuRcmdFwzN9HMkdC92SpB7iwvixDStVc8SfAW4VMhn58JpwoLSHiDJn2Mmsha4QQEXAKloM88UfhIOFFiC+EMRJqKtlJI2qLI6dW2BQbfSYDYKbJzKNZaLuL5ImzCx8+MexETqgyWyV5wXbgz+nimu/iqDz1uO1rlfdEpXhLYyqDYWRybEHzqFcZ5gHXK3cXc28CEPqAGyoZ5g1roEb0yhgRYOV0v5rapeIj6dqzD+6/rkN+liqDi0SbMcHFjEXJLlbSXsV1Bc0EOlLqJkgqsF9F/Rfh2p/BFXdNnCTYhd69FWKzvmBLmUBvolvaVI0Bo7q6KvD9EWFGvSGI6Eg5HQh+XOyvhEs67ohtXaW0Ihw/mMCIsfE86OJ5yaRPuam3YTj4aqJYe8DCPaENInyHkYAxjEzK5Kw6ECbOwJnPgXU9lkv4sXe9OvWwRzucJnRvdudmeEEo01w6l6JUZwghZ4pSbISbWqKEltE0IQiFzQIE0sxrCYLkBonOEkBMKHAgFldcl17k7F4YQgpj6oiwlzToIoabmOlHTUEjEr7VPh37vwBA+b8ju+/U5Qt692ggnSioTwohDliFkv3gzuwVDLJId30Wb7k9KuNpquV4c3iNMlZIeg4VKRvxBKuXT66oUd7Hjczw1CSiUuoywqKgVmS++Qz75OhBLhuWNUXS3lIRSDXCoMEZz+B5hJITYPnXAQgu1tHkcRTEMCYNYX/k4yTAU6GzWCNj0DNJqXN3BRIJxGMYOvv15/43a+k/4bxCqA+H9DyPMQ1sv8HeWAH6nfgB7Rg+A06q+bgAAAABJRU5ErkJggg=="
+                        alt="Microsoft"
+                        width="161"
+                        height="35"
+                        loading="lazy"
+                        decoding="async"
+                    />
+                    <img src="data:image/png;base64,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" alt="HP" width="135" height="56" loading="lazy" decoding="async" />
+                    <img
+                        src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAH0AAAAeCAMAAAA2PuHjAAAAbFBMVEUAAAClsbqgrbSfq7OerLOgrbSvwsKfrLOisrafrLOfrLSfrLOfrLOfrLOfrLOfrLSgrrSfrLOfq7OfrbSos7+grbWfrLOeq7OfrLOgrLShr7WfrbOhr7afrLOfrLOfrLSfrbSgrLOfrLOeq7JXgfmkAAAAI3RSTlMAFm721kQHsR28PJjgjOZ5XcioZQ4y8eySTSyAJs/DhVdToC+SyPcAAAQwSURBVEjHvZbburIgEIZRBFHBfWpaWXn/9/jPDJtVT2ln/3eQCEveGWbDYkFSTLeED0m2ntj/Vr8MW5DupJuNosiOYNDLyKl3c6KrL2B2FOSnhWJWNCt/wbtxe1MiaDqHIY0ivm31ya8aWrvS+CrqLQigp8Y6cGYgZadLow7Ystg+FNNKsm0FWbdtQ/9GX/wLX17pVRi3RHfS0T48+2A7BG5W4jNDK4A+GhT4JZD7jE253U/TNOltu8Gjx8MaithotJ/oPI4NBHXZpRfbV3XO+Bziz+GB9MQbrMGsCwWZ3lOC0bRWmDA34Cr8fLAnl+3GfPsunlunJ8Zq5BJdoqzrd+YV6Oj6mSYuHGeITlFK97J93HbUwOoDfPSbh7jnLIbf/oNOjkgWMoZOfpowsPUOfd2Dk3dyBBgcPI/e6As69UmvIDPcDCDbv6wzeykHKXHk/ASf3nEnoo8VSpHv0Se9/pvWiER6ync9xwgeSBFSp1T1r1k3w+LySVdh+gyjB508M5guxwm/n/ZXqlcW6OFgeYeULPJ0erppUSKS6JRY1Q79dkSf4A9iHCyOzhNUBl5iwMoMIeqFHo1oapZgyZwY0WkHvtPs9BE9dU12U5bupNE7/+Et0FE5gEnjnXm61LsVx4/oDQNNSfK0NZw4ZVSppkRDKun+xmWWXDSyCwpIlCRUtvDN94tzPKJn7FDRJTqc/q3kiN6SkyKeqrMi7wUov4QMVkLMdnSiFRvdXIieCkMIRSt2WubxZGpr2BybSkhM3gMZPDbtLIlCgYyrDClb2mFjV+j8ISL5XyFk9BsShRvJ+tTfwtUR/fxSkVy8vDxZSMN7oJPqHfr6cn2kbriy+QDOJXUN3Z3OBWxL9CIXk+9oZMzN01fxANL1O52u3krUGX+wHv2Sc2qOA98yWcJ+PYXc4Sr7ibC1WMJwJjp5faFb5pNOn4yKIk6WDD517vv02f1rRQp0uj1P9k4xC5yGp1OfL8n3tQZdA51OuAs1gbV871kI2RfRth0dP2s5KCW6zhqAN65RzdhPervJNb1iRiDdKdApgJf37j7YljDvNBwNq7G9SVt8J7oVNfczGXEjRHCh6b/S7293oqyoy5TK30efGmYsN9tla/P09FsKdkl30aRdB6+JpesmK6BIiB7noCbQQwQD/5yGyun4F7jwITJ0QJ5eSW1T77IFCRd31Pd6l4NvnD1zqsKNKT76beKiZGC8SCjtQMfU4gpXgtKfdGorrWJ9N8LSve0pqJlvmc/3Ql+9iZIuy+TK/+jsiuMevOkUqMPg/KRLSoyRutaDb0Oa8tdbfy7KkG5GsSCV+ulAF/DyAOgoyT7Ycv1JZ1EbMrYe3EiyF+XxWhRLN7N3iVRz3TzPEhKkbR8YjrY1S9tS+6bJicFrHgqqbSluVdsK/0v7lHzMOrTEJEN5qyX7B/kg6UAyOCYRAAAAAElFTkSuQmCC"
+                        alt="Vector Graphics"
+                        width="125"
+                        height="30"
+                        loading="lazy"
+                        decoding="async"
+                    />
                 </div>
             </section>
 
             <!-- Call to action -->
             <section class="mt-36">
-                <h2 class="title text-[1.725rem] md:text-3xl">Clipboard for iOS and Mac OS</h2>
-                <p class="text md:mx-auto md:max-w-[37rem] md:text-[0.925rem]">
-                    Available for free on the App Store. Download for Mac or iOS, sync with iCloud and you're ready to
-                    start adding to your clipboard.
-                </p>
+                <div class="space-y-5 text-center md:mx-auto md:max-w-[41rem]">
+                    <h2
+                        class="text-[1.725rem] font-semibold leading-tight text-blue-darkgrayish sm:text-[2rem] md:text-[2.125rem]"
+                    >
+                        Clipboard for iOS and Mac OS
+                    </h2>
+                    <p class="text-blue-grayish sm:text-lg">
+                        Available for free on the App Store. Download for Mac or iOS, sync with iCloud and you're ready
+                        to start adding to your clipboard.
+                    </p>
+                </div>
 
-                <div class="mt-12 w-full space-y-7 md:mt-5 md:box-border md:space-x-4 md:text-center">
-                    <a href="#" class="button group bg-cyan">
-                        <span aria-hidden="true" class="bg-[hsl(171_66%_39%)] group-hover:bg-[hsl(171_66%_70%)]"></span>
-                        Download for iOS
-                    </a>
-                    <a href="#" class="button group bg-blue-light">
+                <div class="mt-12 w-full space-y-7 text-center sm:space-x-4 md:mt-5">
+                    <a
+                        href="#"
+                        class="group relative block w-full rounded-full bg-cyan py-3 text-center text-lg font-semibold text-white shadow-xl shadow-cyan/40 hover:bg-[hsl(171_45%_55%)] sm:inline-block sm:w-56"
+                    >
                         <span
                             aria-hidden="true"
-                            class="bg-[hsl(233_100%_64%)] group-hover:bg-[hsl(233_100%_80%)]"
+                            class="absolute left-0 -bottom-1 -z-10 h-full w-full rounded-full bg-[hsl(171_66%_30%)] group-hover:bg-[hsl(171_20%_55%)]"
+                        ></span>
+                        Download for iOS
+                    </a>
+                    <a
+                        href="#"
+                        class="group relative block w-full rounded-full bg-blue-light py-3 text-center text-lg font-semibold text-white shadow-xl shadow-blue-light/50 hover:bg-[hsl(233_75%_70%)] sm:inline-block sm:w-56"
+                    >
+                        <span
+                            aria-hidden="true"
+                            class="absolute left-0 -bottom-1 -z-10 h-full w-full rounded-full bg-[hsl(233_66%_35%)] group-hover:bg-[hsl(233_50%_60%)]"
                         ></span>
                         Download for Mac
                     </a>
@@ -200,16 +313,24 @@
         </main>
 
         <!-- Footer -->
-        <footer class="mt-44 bg-blue-grayish/10 md:mt-32">
+        <footer class="mt-44 bg-blue-grayish/10 md:mt-36">
             <div
                 class="flex flex-col items-center gap-12 py-14 md:flex-row md:justify-between md:gap-14 md:py-10 md:px-8 lg:mx-auto lg:max-w-[67rem] lg:gap-24"
             >
                 <!-- Logo -->
-                <img class="h-16 w-16" src="assets/logo.bcb9db5e.svg" alt="Logo" />
+                <img
+                    class="h-16 w-16"
+                    src="assets/logo.bcb9db5e.svg"
+                    alt="Clipboard Logo"
+                    width="64"
+                    height="64"
+                    loading="lazy"
+                    decoding="async"
+                />
 
                 <!-- Useful links -->
-                <nav class="text-center text-lg text-blue-darkgrayish md:text-left md:text-sm">
-                    <ul class="grid grid-flow-row gap-5 md:grid-cols-3 md:gap-x-12">
+                <nav class="text-center text-lg text-blue-darkgrayish md:text-left md:text-base lg:text-lg">
+                    <ul class="grid grid-flow-row gap-5 md:grid-cols-3 md:gap-x-8 lg:gap-x-12">
                         <li class="hover:text-cyan"><a href="#">FAQs</a></li>
                         <li class="hover:text-cyan md:row-start-2"><a href="#">Contact Us</a></li>
                         <li class="hover:text-cyan"><a href="#">Privacy Policy</a></li>
@@ -220,7 +341,7 @@
 
                 <!-- Social links -->
                 <div class="flex gap-8 md:ml-auto">
-                    <a href="#" aria-label="Facebook page" class="group">
+                    <a href="#" aria-label="Our Facebook page" class="group">
                         <svg width="24" height="24" xmlns="http://www.w3.org/2000/svg">
                             <path
                                 class="group-hover:fill-cyan"
@@ -231,7 +352,7 @@
                         </svg>
                     </a>
 
-                    <a href="#" aria-label="Twitter page" class="group">
+                    <a href="#" aria-label="Our Twitter page" class="group">
                         <svg width="24" height="20" xmlns="http://www.w3.org/2000/svg">
                             <path
                                 class="group-hover:fill-cyan"
@@ -242,7 +363,7 @@
                         </svg>
                     </a>
 
-                    <a href="#" aria-label="Instagram page" class="group">
+                    <a href="#" aria-label="Our Instagram page" class="group">
                         <svg width="24" height="24" xmlns="http://www.w3.org/2000/svg">
                             <path
                                 class="group-hover:fill-cyan"
@@ -254,13 +375,12 @@
                     </a>
                 </div>
             </div>
-            <p class="mb-2 text-center text-sm text-blue-darkgrayish">
+            <p class="mb-2 text-center text-base text-blue-darkgrayish">
                 Challenge by
                 <a class="text-cyan" href="https://www.frontendmentor.io?ref=challenge" target="_blank"
                     >Frontend Mentor</a
                 >. Coded by
-                <a class="text-cyan" href="https://www.frontendmentor.io/profile/sissokho" target="_blank"
-                    >Mouhamadou Moustapha SISSOKHO</a
+                <a class="text-cyan" href="https://github.com/sissokho" target="_blank">Mouhamadou Moustapha SISSOKHO</a
                 >.
             </p>
         </footer>
