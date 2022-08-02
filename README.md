@@ -10,7 +10,10 @@ It is built with Tailwind CSS.
 
 ```bash
 # Clone the project.
-git clone https://github.com/sissokho/frontendmentor-clipboard-landing-page.git
+git clone https://github.com/sissokho/frontendmentor-clipboard-landing-page.gitc
+
+# Navigate to the folder
+cd frontendmentor-clipboard-landing-page
 
 # Install the dependencies.
 npm install
