@@ -40,4 +40,4 @@ To format the code with prettier, you can run the following command:
 npm run format
 ```
 
-However, this process is automated and done before each commit thanks to [husky](https://typicode.github.io/husky/) and [lint-staged](https://github.com/okonet/lint-staged).
+However, this process is automated and done before each commit using Git hooks thanks to [husky](https://typicode.github.io/husky/) and [lint-staged](https://github.com/okonet/lint-staged).
